@@ -1,0 +1,248 @@
+{
+    "products": [
+        {
+            "id": "crystal-x-21",
+            "slug": "crystal-x-21-amp",
+            "name": "Crystal X 2.1",
+            "shortName": "Crystal X",
+            "category": "High Fidelity Audio",
+            "description": "Flagship dual-mono amplifier with discrete op-amps.",
+            "longDescription": "The 200W Class-D heart of your home audio system. Engineered for transparency and dynamic range.",
+            "price": 499,
+            "sku": "No. 14b",
+            "featured": true,
+            "images": {
+                "hero": "/product1.jpg",
+                "detail": "/detail_device_white.png",
+                "circuit": "/product_circuit_green.png",
+                "lifestyle": "/detail_listening_room.png"
+            },
+            "specifications": {
+                "powerOutput": "2 x 200W (8 Ohm / 4 Ohm)",
+                "thd": "< 0.0001% @ 1kHz 200W",
+                "snr": "112dB",
+                "frequencyResponse": "5Hz - 100kHz -3dB",
+                "dimensions": "180mm x 80mm x 220mm",
+                "inputs": "RCA Unbalanced, XLR Balanced, USB-C"
+            },
+            "features": [
+                {
+                    "title": "Bluetooth 5.1 + AUX",
+                    "description": "Seamless low-latency wireless streaming combined with a pure analog signal path for your legacy gear.",
+                    "icon": "bluetooth"
+                },
+                {
+                    "title": "Protection Circuits",
+                    "description": "Short-circuit and thermal overload protection.",
+                    "icon": "shield"
+                },
+                {
+                    "title": "ZeroControl",
+                    "description": "New feedback-based distortion monitoring.",
+                    "icon": "cpu"
+                }
+            ],
+            "highlights": [
+                "0.0001% THD",
+                "112dB SNR",
+                "200W/Ch Output"
+            ],
+            "tagline": "Pure Power. Precisely Tuned.",
+            "quote": "Hearing is Believing.",
+            "quoteDescription": "Experience soundstages that extend well beyond the walls of your room. The Crystal X doesn't just amplify sound; it reveals the emotion hidden within the silence between the notes."
+        },
+        {
+            "id": "bass-boost-500",
+            "slug": "bass-boost-500",
+            "name": "Bass Boost 500",
+            "category": "Professional Audio",
+            "description": "Studio-grade noise cancelling headphones for creators.",
+            "longDescription": "Professional-grade headphones designed for audio professionals who demand pristine sound reproduction and all-day comfort.",
+            "price": 299,
+            "featured": false,
+            "images": {
+                "hero": "/product2.jpg",
+                "detail": "/product2.jpg"
+            },
+            "specifications": {
+                "driverSize": "50mm Dynamic",
+                "frequencyResponse": "10Hz - 40kHz",
+                "impedance": "32 Ohm",
+                "snr": "105dB",
+                "batteryLife": "30 hours ANC on",
+                "weight": "280g"
+            },
+            "features": [
+                {
+                    "title": "Active Noise Cancellation",
+                    "description": "Industry-leading ANC technology blocks out distractions.",
+                    "icon": "shield"
+                },
+                {
+                    "title": "Studio Tuning",
+                    "description": "Flat frequency response for accurate mixing and mastering.",
+                    "icon": "cpu"
+                }
+            ],
+            "highlights": [
+                "50mm Drivers",
+                "30hr Battery",
+                "ANC Technology"
+            ]
+        },
+        {
+            "id": "control-alpha",
+            "slug": "control-alpha",
+            "name": "Control Alpha",
+            "category": "Industrial Control",
+            "description": "Modular industrial controller for precision plants.",
+            "longDescription": "Advanced industrial control system designed for manufacturing plants requiring microsecond precision and reliability.",
+            "price": 1299,
+            "featured": false,
+            "images": {
+                "hero": "/product3.jpg",
+                "detail": "/product3.jpg"
+            },
+            "specifications": {
+                "processorCount": "Dual ARM Cortex-A72",
+                "ioChannels": "128 Digital I/O, 32 Analog",
+                "scanRate": "1ms base scan",
+                "operatingTemp": "-40°C to +85°C",
+                "certifications": "UL, CE, IEC 61131"
+            },
+            "features": [
+                {
+                    "title": "Modular Architecture",
+                    "description": "Hot-swappable I/O modules for zero downtime maintenance.",
+                    "icon": "cpu"
+                },
+                {
+                    "title": "Industrial Grade",
+                    "description": "Military-spec components rated for extreme environments.",
+                    "icon": "shield"
+                }
+            ],
+            "highlights": [
+                "1ms Scan Time",
+                "128 I/O Channels",
+                "Hot-Swap Support"
+            ]
+        },
+        {
+            "id": "autosense-module",
+            "slug": "autosense-module",
+            "name": "AutoSense Module",
+            "category": "Automotive Tech",
+            "description": "Real-time telemetry / sensor fusion module.",
+            "longDescription": "Cutting-edge automotive sensor fusion platform for next-generation vehicle diagnostics and autonomous systems.",
+            "price": 799,
+            "featured": false,
+            "images": {
+                "hero": "/product3.jpg",
+                "detail": "/product3.jpg"
+            },
+            "specifications": {
+                "processor": "NVIDIA Jetson Nano",
+                "canBus": "CAN 2.0B, CAN-FD",
+                "sensors": "LIDAR, Radar, Camera Ready",
+                "dataRate": "1Gbps Ethernet",
+                "power": "12V-24V Automotive"
+            },
+            "features": [
+                {
+                    "title": "Sensor Fusion",
+                    "description": "Real-time processing of multiple sensor inputs with AI acceleration.",
+                    "icon": "cpu"
+                },
+                {
+                    "title": "Automotive Grade",
+                    "description": "AEC-Q100 qualified components for vehicle integration.",
+                    "icon": "shield"
+                }
+            ],
+            "highlights": [
+                "AI Accelerated",
+                "CAN-FD Support",
+                "Multi-Sensor"
+            ]
+        },
+        {
+            "id": "aeon-pro-headset",
+            "slug": "aeon-pro-headset",
+            "name": "Aeon Pro Headset",
+            "category": "Consumer Audio",
+            "description": "Lightweight open-back headset for critical listening.",
+            "longDescription": "Premium open-back headphones delivering audiophile-grade sound for discerning listeners who value transparency and soundstage.",
+            "price": 399,
+            "featured": false,
+            "images": {
+                "hero": "/product5.jpg",
+                "detail": "/product5.jpg"
+            },
+            "specifications": {
+                "driverType": "Planar Magnetic",
+                "driverSize": "106mm",
+                "frequencyResponse": "5Hz - 50kHz",
+                "impedance": "60 Ohm",
+                "sensitivity": "97dB/mW",
+                "weight": "420g"
+            },
+            "features": [
+                {
+                    "title": "Planar Magnetic Drivers",
+                    "description": "Ultra-low distortion with lightning-fast transient response.",
+                    "icon": "cpu"
+                },
+                {
+                    "title": "Premium Materials",
+                    "description": "Hand-stitched leather and CNC aluminum construction.",
+                    "icon": "shield"
+                }
+            ],
+            "highlights": [
+                "Planar Magnetic",
+                "Open-Back",
+                "106mm Drivers"
+            ]
+        },
+        {
+            "id": "micrologic-core",
+            "slug": "micrologic-core",
+            "name": "MicroLogic Core",
+            "category": "Embedded Systems",
+            "description": "Low-power RISC-V processor for edge computing.",
+            "longDescription": "Next-generation RISC-V based microcontroller optimized for edge AI and IoT applications with industry-leading power efficiency.",
+            "price": 89,
+            "featured": false,
+            "images": {
+                "hero": "/product6.jpg",
+                "detail": "/product6.jpg"
+            },
+            "specifications": {
+                "core": "RISC-V RV32IMAC",
+                "clockSpeed": "320MHz",
+                "memory": "512KB SRAM, 4MB Flash",
+                "power": "< 50μA deep sleep",
+                "connectivity": "WiFi 6, BLE 5.2, LoRa",
+                "gpio": "48 GPIO pins"
+            },
+            "features": [
+                {
+                    "title": "Ultra Low Power",
+                    "description": "Sub-50μA deep sleep with instant wake capabilities.",
+                    "icon": "cpu"
+                },
+                {
+                    "title": "Edge AI Ready",
+                    "description": "Hardware acceleration for TensorFlow Lite inference.",
+                    "icon": "cpu"
+                }
+            ],
+            "highlights": [
+                "RISC-V Core",
+                "WiFi 6",
+                "Edge AI"
+            ]
+        }
+    ]
+}
