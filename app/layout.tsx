@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -14,13 +15,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// 1. Configure the local font
+const ethnocentric = localFont({
+  src: "./fonts/Ethnocentric-Regular.otf", // Path to your font file
+  variable: "--font-ethnocentric", // CSS variable name
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Aethera Labs - Innovative Audio Technology",
-  description: "Aethera Labs - Leading the future of audio technology with innovative products and solutions",
+  description:
+    "Aethera Labs - Leading the future of audio technology with innovative products and solutions",
   icons: {
-    icon: '/logo.svg',
-    shortcut: '/logo.svg',
-    apple: '/logo.svg',
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
 };
 
@@ -32,8 +41,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><Navbar />
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${ethnocentric.variable}`}
+      >
+        <Navbar />
         {children}
         <Footer />
       </body>
