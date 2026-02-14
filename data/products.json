@@ -9,10 +9,10 @@
             "description": "Flagship dual-mono amplifier with discrete op-amps.",
             "longDescription": "The 200W Class-D heart of your home audio system. Engineered for transparency and dynamic range.",
             "price": 499,
-            "sku": "No. 14b",
+            "sku": "S200",
             "featured": true,
             "images": {
-                "hero": "/product1.jpg",
+                "hero": "/CrystalX.jpg",
                 "detail": "/detail_device_white.png",
                 "circuit": "/product_circuit_green.png",
                 "lifestyle": "/detail_listening_room.png"
@@ -20,7 +20,7 @@
             "specifications": {
                 "powerOutput": "2 x 200W (8 Ohm / 4 Ohm)",
                 "thd": "< 0.0001% @ 1kHz 200W",
-                "snr": "112dB",
+                "snr": "102dB",
                 "frequencyResponse": "5Hz - 100kHz -3dB",
                 "dimensions": "180mm x 80mm x 220mm",
                 "inputs": "RCA Unbalanced, XLR Balanced, USB-C"
@@ -43,9 +43,9 @@
                 }
             ],
             "highlights": [
-                "0.0001% THD",
-                "112dB SNR",
-                "200W/Ch Output"
+                "0.01 THD",
+                "102dB SNR",
+                "200W Output"
             ],
             "tagline": "Pure Power. Precisely Tuned.",
             "quote": "Hearing is Believing.",
