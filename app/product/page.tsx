@@ -80,6 +80,7 @@ export default function ProductDetailPage() {
                 Seamless low-latency wireless streaming combined with a pure analog signal path for your legacy gear.
               </p>
             </div>
+            
 
             <div className="space-y-6">
               <div className="bg-slate-50 p-6 rounded-3xl hover:shadow-lg transition-shadow">
@@ -141,6 +142,7 @@ export default function ProductDetailPage() {
       </section>
 
       {/* Specs Section */}
+      
       <section className="max-w-4xl mx-auto px-6 py-24">
         <h3 className="text-2xl font-bold text-slate-900 text-center mb-12">Technical Specifications</h3>
 

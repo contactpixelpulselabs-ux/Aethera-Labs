@@ -18,12 +18,13 @@
                 "lifestyle": "/detail_listening_room.png"
             },
             "specifications": {
-                "powerOutput": "2 x 200W (8 Ohm / 4 Ohm)",
-                "thd": "< 0.0001% @ 1kHz 200W",
+                "powerOutput": "Left and Right - 50W + 50W",
+                "thd(24v)": " 0.01% THD+N @ 10W , 1kHz 40HM",
                 "snr": "102dB",
-                "frequencyResponse": "5Hz - 100kHz -3dB",
-                "dimensions": "180mm x 80mm x 220mm",
-                "inputs": "RCA Unbalanced, XLR Balanced, USB-C"
+                "frequencyResponse": "10Hz - 20kHz",
+                "dimensions": "10cm x 9cm x 3.5cm",
+                "inputs": "Aux Unbalanced , Bluetooth",
+                "Recommended PowerSupply": "24V , 10A"
             },
             "features": [
                 {

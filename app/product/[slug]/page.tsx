@@ -47,6 +47,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         return colors[index % colors.length];
     };
 
+    
+
     return (
         <div className="min-h-screen bg-white">
 
@@ -163,7 +165,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                         )}
                     </div>
 
-                    <div className="mt-8 bg-slate-950 text-white px-10 py-7 rounded-3xl flex flex-col md:flex-row justify-between items-center">
+                   {/* <div className="mt-8 bg-slate-950 text-white px-10 py-7 rounded-3xl flex flex-col md:flex-row justify-between items-center">
                         <div className="mb-3 md:mb-0">
                             <h4 className="text-xs uppercase tracking-widest text-slate-500 mb-1.5">Industrial Design</h4>
                             <p className="font-bold text-lg">CNC-Machined Aluminum Chassis</p>
@@ -172,7 +174,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                         <div className="text-center md:text-right">
                             <p className="text-sm text-slate-400">Extruded from solid blocks of aviation-grade alloy.</p>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </section>
 
@@ -228,18 +230,18 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                         <div className="flex-1">
                             <h3 className="text-3xl font-bold text-slate-900 mb-4">The Aethera Standard.</h3>
                             <p className="text-slate-600 text-base leading-relaxed max-w-lg">
-                                We stand behind our engineering. Each device is hand-tested in our labs for 48 hours before shipment. We only ship perfection.
+                                We stand behind our engineering. Each device is hand-tested in our labs for 24 hours before shipment. We only ship perfection.
                             </p>
                         </div>
                         <div className="flex flex-col gap-3">
                             <div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-green-500 transition-colors">
                                 <CheckCircle2 size={20} className="text-green-600" />
-                                <span>5-Year Warranty</span>
+                                <span>6 Months Warranty</span>
                             </div>
-                            <div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-blue-500 transition-colors">
+                            {/*<div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-blue-500 transition-colors">
                                 <CheckCircle2 size={20} className="text-blue-600" />
                                 <span>30-Day Returns</span>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
