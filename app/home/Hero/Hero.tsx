@@ -2,8 +2,11 @@
 import React from 'react';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
+import Link from "next/link";
+
 
 const Hero: React.FC = () => {
+ 
   return (
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       {/* Background Image with Overlay */}
@@ -32,10 +35,11 @@ const Hero: React.FC = () => {
           </p>
 
           <div className="pt-4">
-            <button className="group flex items-center gap-2 mx-auto bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-md text-white px-8 py-3 rounded-full transition-all duration-300 ease-in-out">
+
+            <Link href="/products" className="group flex items-center gap-2 mx-auto w-50 bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-md text-white px-8 py-3 rounded-full transition-all duration-300 ease-in-out">
               <span className="text-sm font-medium">Explore the Labs</span>
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
