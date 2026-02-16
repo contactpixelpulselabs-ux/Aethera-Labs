@@ -5,20 +5,20 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 pb-20 pt-20">
 
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+      <div className="max-w-7xl mx-auto px-6  gap-16 flex items-center justify-center">
 
         {/* Left Column: Info */}
-        <div className="space-y-12">
+        <div className="space-y-25">
           <div>
             <h1 className="text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] mb-6">
               Let&apos;s build the future <span className="text-blue-600">together.</span>
             </h1>
-            <p className="text-lg text-slate-500 max-w-md">
+            <p className="text-lg text-slate-500 flex justify-center">
               Reach out to our engineering team to discuss your next breakthrough. We are here to listen.
             </p>
           </div>
 
-          <div className="space-y-10">
+          <div className="flex flex-col sm:flex-row sm:justify-center justify-center gap-8 ">
             {/* Headquarters */}
             <div className="flex gap-4">
               <div className="shrink-0 mt-1">
@@ -65,7 +65,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Right Column: Form */}
+        {/* Right Column: Form 
         <div>
           <div className="bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl shadow-slate-200/50">
             <h3 className="text-xl font-bold mb-8">Send us a message</h3>
@@ -99,7 +99,7 @@ export default function ContactPage() {
               </div>
             </form>
           </div>
-        </div>
+        </div>*/}
       </div>
 
       {/* Fast Answer Section */}

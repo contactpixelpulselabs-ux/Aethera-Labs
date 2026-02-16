@@ -13,17 +13,17 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    title: "Crystal X",
+    title: "Crystal X S200",
     description:
       "Transparent computing interfaces for seamless data integration.",
-    image: "/CrystalX.jpg",
+    image: "/CrystalXS200.jpg",
     badge: "FLAGSHIP",
   },
   {
     id: 2,
-    title: "Crystal X S400",
+    title: "Crystal X S500",
     description: "Quantum processing units scaled for enterprise architecture.",
-    image: "/Product2.jpg",
+    image: "/CrystalXS500.jpg",
     badge: "COMING SOON",
   },
   // {
@@ -55,11 +55,11 @@ const Product: React.FC = () => {
       </div>
 
       {/* Product Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 ">
         {products.map((product) => (
           <div
             key={product.id}
-            className="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-zinc-100 cursor-pointer"
+            className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-zinc-100 cursor-pointer"
           >
             {/* Background Image */}
             <Image
@@ -81,8 +81,8 @@ const Product: React.FC = () => {
               )}
               <h3
                 className={`${
-                  product.title === "Crystal X" ||
-                  product.title === "Crystal X S400"
+                  product.title === "Crystal X S200" ||
+                  product.title === "Crystal X S500"
                     ? "font-ethno"
                     : ""
                 } text-2xl font-bold text-white mb-2`}
