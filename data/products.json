@@ -1,0 +1,96 @@
+{
+    "products": [
+        {
+            "id": "crystal-x-21",
+            "slug": "crystal-x-21-amp",
+            "name": "Crystal X S200",
+            "shortName": "Crystal X S200",
+            "category": "High Fidelity Audio",
+            "description": "Flagship dual-mono amplifier with discrete op-amps.",
+            "longDescription": "The 200W Class-D heart of your home audio system. Engineered for transparency and dynamic range.",
+            "price": 499,
+            "sku": "S200",
+            "featured": true,
+            "images": {
+                "hero": "/CrystalXS200.jpg",
+                "detail": "/detail_device_white.png",
+                "circuit": "/product_circuit_green.png",
+                "lifestyle": "/detail_listening_room.png"
+            },
+            "specifications": {
+                "powerOutput": "Left and Right - 50W + 50W",
+                "thd(24v)": " 0.01% THD+N @ 10W , 1kHz 40HM",
+                "snr": "102dB",
+                "frequencyResponse": "10Hz - 20kHz",
+                "dimensions": "10cm x 9cm x 3.5cm",
+                "inputs": "Aux Unbalanced , Bluetooth",
+                "Recommended PowerSupply": "24V , 10A"
+            },
+            "features": [
+                {
+                    "title": "Bluetooth 5.1 + AUX",
+                    "description": "Seamless low-latency wireless streaming combined with a pure analog signal path for your legacy gear.",
+                    "icon": "bluetooth"
+                },
+                {
+                    "title": "Protection Circuits",
+                    "description": "Short-circuit and thermal overload protection.",
+                    "icon": "shield"
+                },
+                {
+                    "title": "ZeroControl",
+                    "description": "New feedback-based distortion monitoring.",
+                    "icon": "cpu"
+                }
+            ],
+            "highlights": [
+                "0.01 THD",
+                "102dB SNR",
+                "200W Output"
+            ],
+            "tagline": "Pure Power. Precisely Tuned.",
+            "quote": "Hearing is Believing.",
+            "quoteDescription": "Experience soundstages that extend well beyond the walls of your room. The Crystal X doesn't just amplify sound; it reveals the emotion hidden within the silence between the notes."
+        },
+        {
+            "id": "Crystal X S500",
+            "slug": "crystal-x-s500",
+            "name": "Crystal X S500",
+            "category": "Professional Audio",
+            "description": "Studio-grade noise cancelling headphones for creators.",
+            "longDescription": "Professional-grade headphones designed for audio professionals who demand pristine sound reproduction and all-day comfort.",
+            "price": 299,
+            "featured": false,
+            "images": {
+                "hero": "/CrystalXS500.jpg",
+                "detail": "/CrystalXS500.jpg"
+            },
+            "specifications": {
+                "driverSize": "50mm Dynamic",
+                "frequencyResponse": "10Hz - 40kHz",
+                "impedance": "32 Ohm",
+                "snr": "105dB",
+                "batteryLife": "30 hours ANC on",
+                "weight": "280g"
+            },
+            "features": [
+                {
+                    "title": "Active Noise Cancellation",
+                    "description": "Industry-leading ANC technology blocks out distractions.",
+                    "icon": "shield"
+                },
+                {
+                    "title": "Studio Tuning",
+                    "description": "Flat frequency response for accurate mixing and mastering.",
+                    "icon": "cpu"
+                }
+            ],
+            "highlights": [
+                "50mm Drivers",
+                "30hr Battery",
+                "ANC Technology"
+            ]
+        }
+        
+    ]
+}
