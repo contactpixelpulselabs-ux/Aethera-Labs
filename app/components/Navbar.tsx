@@ -45,18 +45,11 @@ const Navbar: React.FC = () => {
           >
             {/* Custom Logo SVG based on image */}
             <div className="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="w-5 h-5"
-              >
-                <path d="M12 12c-2-2.67-4-4-6-4a4 4 0 1 0 0 8c2 0 4-1.33 6-4Zm0 0c2 2.67 4 4 6 4a4 4 0 1 0 0-8c-2 0-4 1.33-6 4Z" />
-              </svg>
+              <img
+                src="/aethera logo.svg"
+                alt="Aethera Logo"
+                className="w-5 h-5 object-contain"
+              />
             </div>
             <span className="text-gray-900 font-bold text-lg tracking-tight">
               Aethera Labs
