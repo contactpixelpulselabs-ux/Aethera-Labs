@@ -18,7 +18,10 @@
                 "lifestyle": "/detail_listening_room.png"
             },
             "specifications": {
-                "powerOutput": "Left and Right - 50W + 50W",
+                "powerOutput": [
+                    "Left and Right - 50W + 50W (at 4Ω)",
+                    "Subwoofer - 100W (at 2Ω)"
+                ],
                 "thd(24v)": " 0.01% THD+N @ 10W , 1kHz 40HM",
                 "snr": "102dB",
                 "frequencyResponse": "10Hz - 20kHz",

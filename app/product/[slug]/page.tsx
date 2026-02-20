@@ -173,22 +173,29 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
             )}
 {/* Specs Section */}
             <section className="max-w-4xl mx-auto px-6 py-24">
-                <h3 className="text-2xl font-bold text-slate-900 text-center mb-12">Technical Specifications</h3>
+  <h3 className="text-2xl font-bold text-slate-900 text-center mb-12">Technical Specifications</h3>
 
-                <div className="space-y-4">
-                    {Object.entries(product.specifications).map(([key, value], i) => {
-                        // Convert camelCase to Title Case with spaces
-                        const label = key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());
+  <div className="space-y-4">
+    {Object.entries(product.specifications).map(([key, value], i) => {
+      // Convert camelCase to Title Case with spaces
+      const label = key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());
 
-                        return (
-                            <div key={i} className="flex justify-between items-center py-4 border-b border-slate-100 last:border-0 hover:bg-slate-50 px-4 rounded-lg transition-colors leading-loose">
-                                <span className="text-xs font-bold uppercase tracking-widest text-slate-400 w-1/3">{label}</span>
-                                <span className="font-bold text-slate-900 text-right w-2/3">{value}</span>
-                            </div>
-                        );
-                    })}
-                </div>
-            </section>
+      return (
+        <div
+          key={i}
+          className="flex justify-between items-start py-4 border-b border-slate-100 last:border-0 hover:bg-slate-50 px-4 rounded-lg transition-colors leading-loose"
+        >
+          <span className="text-xs font-bold uppercase tracking-widest text-slate-400 w-1/3">{label}</span>
+          <div className="font-bold text-slate-900 w-2/3 text-right space-y-1 break-words">
+            {Array.isArray(value)
+              ? value.map((item, idx) => <div key={idx}>{item}</div>)
+              : value}
+          </div>
+        </div>
+      );
+    })}
+  </div>
+</section>
 
             {/* Assurance / Footer-ish */}
             <section className="bg-slate-50 py-20 px-6">
