@@ -1,20 +1,28 @@
-import React from 'react';
-import { MapPin, Phone, Clock, Send, MessageCircle, Mail, ArrowRight } from 'lucide-react';
+import React from "react";
+import {
+  MapPin,
+  Phone,
+  Clock,
+  Send,
+  MessageCircle,
+  Mail,
+  ArrowRight,
+} from "lucide-react";
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 pb-20 pt-20">
-
       <div className="max-w-7xl mx-auto px-6  gap-16 flex items-center justify-center">
-
         {/* Left Column: Info */}
         <div className="space-y-25">
           <div>
             <h1 className="text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] mb-6">
-              Let&apos;s build the future <span className="text-blue-600">together.</span>
+              Let&apos;s build the future{" "}
+              <span className="text-blue-600">together.</span>
             </h1>
             <p className="text-lg text-slate-500 flex justify-center">
-              Reach out to our engineering team to discuss your next breakthrough. We are here to listen.
+              Reach out to our engineering team to discuss your next
+              breakthrough. We are here to listen.
             </p>
           </div>
 
@@ -25,11 +33,16 @@ export default function ContactPage() {
                 <MapPin className="text-blue-600" size={24} />
               </div>
               <div>
-                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Headquarters</h4>
+                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">
+                  Headquarters
+                </h4>
                 <p className="font-medium text-slate-900 leading-relaxed">
-                  408, Siyonwatta,<br />
-                  Ambagasthanna,<br />
-                  Raththota,<br />
+                  408, Siyonwatta,
+                  <br />
+                  Ambagasthanna,
+                  <br />
+                  Raththota,
+                  <br />
                   Sri Lanka.
                 </p>
               </div>
@@ -41,10 +54,13 @@ export default function ContactPage() {
                 <Phone className="text-blue-600" size={24} />
               </div>
               <div>
-                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Contact</h4>
+                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">
+                  Contact
+                </h4>
                 <p className="font-medium text-slate-900 leading-relaxed">
-                  +1 (555) 012-3456<br />
-                  hello@aetheralabs.com
+                  +94 76 749 7474
+                  <br />
+                  anjana3056260@gmail.com
                 </p>
               </div>
             </div>
@@ -55,9 +71,12 @@ export default function ContactPage() {
                 <Clock className="text-blue-600" size={24} />
               </div>
               <div>
-                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">Hours</h4>
+                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2">
+                  Hours
+                </h4>
                 <p className="font-medium text-slate-900 leading-relaxed">
-                  Mon - Fri, 9am - 6pm PST<br />
+                  Mon - Fri, 9am - 6pm PST
+                  <br />
                   Weekends by appointment
                 </p>
               </div>
@@ -104,31 +123,48 @@ export default function ContactPage() {
 
       {/* Fast Answer Section */}
       <div className="max-w-2xl mx-auto px-6 mt-32 text-center">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8">Need an answer faster?</h2>
+        <h2 className="text-2xl font-bold text-slate-900 mb-8">
+          Need an answer faster?
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <a href="#" className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group">
+          <a
+            href="https://wa.me/94771234567?text=Hello%20Aethera%20Labs,%20I%20have%20an%20inquiry."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
+          >
             <div className="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0">
               <MessageCircle size={24} />
             </div>
             <div className="text-left">
-              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Messaging</span>
-              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">Talk on WhatsApp</h4>
+              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+                Messaging
+              </span>
+              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
+                Talk on WhatsApp
+              </h4>
             </div>
           </a>
 
-          <a href="#" className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group">
+          <a
+            href="mailto:engineering@aetheralabs.com?subject=Engineering%20Inquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20discuss..."
+            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
+          >
             <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">
               <Mail size={24} />
             </div>
             <div className="text-left">
-              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Engineering</span>
-              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">Email the Team</h4>
+              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+                Engineering
+              </span>
+              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
+                Email the Team
+              </h4>
             </div>
           </a>
         </div>
       </div>
-
     </div>
-  )
+  );
 }
