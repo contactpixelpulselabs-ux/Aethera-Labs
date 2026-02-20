@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   description:
     "Aethera Labs - Leading the future of audio technology with innovative products and solutions",
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: "/aethera logo white in white.svg",
+    shortcut: "/aethera logo white in white.svg",
+    apple: "/aethera logo white in white.svg",
   },
 };
 
