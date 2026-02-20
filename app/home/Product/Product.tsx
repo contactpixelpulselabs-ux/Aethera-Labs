@@ -8,6 +8,7 @@ interface Product {
   description: string;
   image: string;
   badge?: string;
+  link: string;
 }
 
 const products: Product[] = [
@@ -18,6 +19,7 @@ const products: Product[] = [
       "Transparent computing interfaces for seamless data integration.",
     image: "/CrystalXS200.jpg",
     badge: "FLAGSHIP",
+    link: "/product/crystal-x-21-amp",
   },
   {
     id: 2,
@@ -25,6 +27,7 @@ const products: Product[] = [
     description: "Quantum processing units scaled for enterprise architecture.",
     image: "/CrystalXS500.jpg",
     badge: "COMING SOON",
+    link: "/product",
   },
   // {
   //   id: 3,
@@ -46,7 +49,7 @@ const Product: React.FC = () => {
           Our Products
         </h2>
         <a
-          href="#"
+          href="product/"
           className="group flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors"
         >
           View all products
@@ -61,38 +64,40 @@ const Product: React.FC = () => {
             key={product.id}
             className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-zinc-100 cursor-pointer"
           >
-            {/* Background Image */}
-            <Image
-              src={product.image}
-              alt={product.title}
-              fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+            <a href={product.link}>
+              {/* Background Image */}
+              <Image
+                src={product.image}
+                alt={product.title}
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+              />
 
-            {/* Gradient Overlay for Text Readability */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              {/* Gradient Overlay for Text Readability */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
-            {/* Content Container */}
-            <div className="absolute bottom-0 left-0 p-8 w-full">
-              {product.badge && (
-                <span className="inline-block px-3 py-1 mb-4 text-[10px] font-bold tracking-widest text-white bg-blue-600 rounded-full">
-                  {product.badge}
-                </span>
-              )}
-              <h3
-                className={`${
-                  product.title === "Crystal X S200" ||
-                  product.title === "Crystal X S500"
-                    ? "font-ethno"
-                    : ""
-                } text-2xl font-bold text-white mb-2`}
-              >
-                {product.title}
-              </h3>
-              <p className="text-zinc-300 text-sm leading-relaxed max-w-[240px]">
-                {product.description}
-              </p>
-            </div>
+              {/* Content Container */}
+              <div className="absolute bottom-0 left-0 p-8 w-full">
+                {product.badge && (
+                  <span className="inline-block px-3 py-1 mb-4 text-[10px] font-bold tracking-widest text-white bg-blue-600 rounded-full">
+                    {product.badge}
+                  </span>
+                )}
+                <h3
+                  className={`${
+                    product.title === "Crystal X S200" ||
+                    product.title === "Crystal X S500"
+                      ? "font-ethno"
+                      : ""
+                  } text-2xl font-bold text-white mb-2`}
+                >
+                  {product.title}
+                </h3>
+                <p className="text-zinc-300 text-sm leading-relaxed max-w-[240px]">
+                  {product.description}
+                </p>
+              </div>
+            </a>
           </div>
         ))}
       </div>

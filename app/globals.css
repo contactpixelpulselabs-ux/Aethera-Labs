@@ -13,7 +13,10 @@
   --font-ethno: var(--font-ethnocentric);
 }
 
-
+.font-ethno {
+  font-family: var(--font-ethnocentric);
+  letter-spacing: 0.08em; /* optional but recommended for branding */
+}
 
 body {
   background: var(--background);
