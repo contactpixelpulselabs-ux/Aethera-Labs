@@ -28,7 +28,7 @@ export default function ContactPage() {
 
           <div className="flex flex-col sm:flex-row sm:justify-center justify-center gap-8 ">
             {/* Headquarters */}
-            <div className="flex gap-4">
+            <div className="flex gap-4 bg-slate-100 p-4 rounded-lg">
               <div className="shrink-0 mt-1">
                 <MapPin className="text-blue-600" size={24} />
               </div>
@@ -49,7 +49,7 @@ export default function ContactPage() {
             </div>
 
             {/* Contact */}
-            <div className="flex gap-4">
+            <div className="flex gap-4 bg-slate-100 p-4 rounded-lg">
               <div className="shrink-0 mt-1">
                 <Phone className="text-blue-600" size={24} />
               </div>
@@ -66,7 +66,7 @@ export default function ContactPage() {
             </div>
 
             {/* Hours */}
-            <div className="flex gap-4">
+            <div className="flex gap-4 bg-slate-100 p-4 rounded-lg">
               <div className="shrink-0 mt-1">
                 <Clock className="text-blue-600" size={24} />
               </div>
