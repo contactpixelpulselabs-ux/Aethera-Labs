@@ -129,7 +129,7 @@ export default function ContactPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a
-            href="https://wa.me/94771234567?text=Hello%20Aethera%20Labs,%20I%20have%20an%20inquiry."
+            href="https://wa.me/94768087474?text=Hello%20Aethera%20Labs,%20I%20have%20an%20inquiry."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
