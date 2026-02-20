@@ -221,12 +221,12 @@ export default function ProductDetailPage() {
             <div className="flex flex-col gap-3">
               <div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-green-500 transition-colors">
                 <CheckCircle2 size={20} className="text-green-600" />
-                <span>5-Year Warranty</span>
+                <span>6 Months Warranty</span>
               </div>
-              <div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-blue-500 transition-colors">
+              {/* <div className="bg-white px-5 py-3 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-semibold flex items-center gap-3 hover:border-blue-500 transition-colors">
                 <CheckCircle2 size={20} className="text-blue-600" />
                 <span>30-Day Returns</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
