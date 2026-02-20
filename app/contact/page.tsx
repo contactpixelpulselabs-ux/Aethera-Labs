@@ -148,7 +148,7 @@ export default function ContactPage() {
           </a>
 
           <a
-            href="mailto:engineering@aetheralabs.com?subject=Engineering%20Inquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20discuss..."
+            href="mailto:anjana3056260@gmail.com?subject=Engineering%20Inquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20discuss..."
             className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
           >
             <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">
