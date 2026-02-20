@@ -28,8 +28,13 @@
             },
             "features": [
                 {
-                    "title": "Bluetooth 5.1 + AUX",
+                    "title": "Bluetooth 5.1",
                     "description": "Seamless low-latency wireless streaming combined with a pure analog signal path for your legacy gear.",
+                    "icon": "bluetooth"
+                },
+                {
+                    "title": "Bluetooth 5.1 + APTX HD",
+                    "description": "Qualcomm 3034",
                     "icon": "bluetooth"
                 },
                 {
@@ -91,6 +96,5 @@
                 "ANC Technology"
             ]
         }
-        
     ]
 }
