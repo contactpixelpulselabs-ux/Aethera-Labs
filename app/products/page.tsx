@@ -249,7 +249,7 @@ function ProductCard({
           </p>
 
           <button className="w-full py-3 rounded-lg border border-slate-200 text-slate-600 text-sm font-semibold group-hover:bg-slate-900 group-hover:text-white group-hover:border-slate-900 transition-colors flex items-center justify-center gap-2">
-            <Download size={16} /> Technical Sheet
+             See More
           </button>
         </div>
       </div>
