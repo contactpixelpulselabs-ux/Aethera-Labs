@@ -119,11 +119,11 @@ export default function ProductsPage() {
           ))}
         </div>
 
-        <div className="flex justify-center mt-12">
+        {/* <div className="flex justify-center mt-12">
           <button className="text-slate-500 font-medium hover:text-slate-900 underline underline-offset-4 decoration-2">
             View Archived Products
           </button>
-        </div>
+        </div> */}
       </section>
 
       {/* Feature Section */}

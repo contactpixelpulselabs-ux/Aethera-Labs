@@ -44,9 +44,9 @@ const Navbar: React.FC = () => {
             className="flex-shrink-0 flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             {/* Custom Logo SVG based on image */}
-            <div className="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center text-white">
+            <div className="w-8 h-8  rounded-full flex items-center justify-center text-white">
               <img
-                src="/aethera logo.svg"
+                src="/aethera logo white in white.svg"
                 alt="Aethera Logo"
                 className="w-5 h-5 object-contain"
               />

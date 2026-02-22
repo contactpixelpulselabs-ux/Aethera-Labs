@@ -93,9 +93,9 @@ const Footer: React.FC = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <Link href="/" className="flex items-center gap-3 w-fit">
-              <div className="w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center text-white">
+              <div className="w-8 h-8  rounded-full flex items-center justify-center text-white">
                 <img
-                  src="/aethera logo.svg"
+                  src="/aethera logo white in white.svg"
                   alt="Aethera Logo"
                   className="w-5 h-5 object-contain"
                 />

@@ -33,18 +33,22 @@ function LeaderCard({
 
           {/* Education (short) */}
           <div className="mt-5">
-            <p className="text-[11px] uppercase tracking-widest text-slate-500 font-bold">
-              Education
-            </p>
-            <ul className="mt-2 space-y-1 text-sm text-slate-600">
-              {education.slice(0, 2).map((e) => (
-                <li key={e} className="flex items-start gap-2">
-                  <span className="mt-2 w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
-                  <span className="leading-relaxed">{e}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+  <p className="text-[11px] uppercase tracking-widest text-slate-500 font-bold">
+    Education
+  </p>
+  <ul className="mt-2 space-y-1 text-sm text-slate-600">
+    {education.slice(0, 2).map((e, index) => (
+      <li key={e} className="flex items-start gap-2">
+        <span
+          className={`mt-2 w-1.5 h-1.5 rounded-full shrink-0 ${
+            index === 0 ? "bg-blue-600" : "invisible"
+          }`}
+        />
+        <span className="leading-relaxed">{e}</span>
+      </li>
+    ))}
+  </ul>
+</div>
 
           {/* CTA */}
           <div className="mt-6">

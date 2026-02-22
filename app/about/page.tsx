@@ -369,8 +369,8 @@ export default function AboutPage() {
             name="Anjana Siriwardhana"
             role="Founder & Lead Engineer"
             education={[
-              "B.Sc. (Hons) in Electrical and Electronics Engineering",
-              "Sri Lanka institute of information technology (SLIIT)",
+              "B.Sc. (Hons) in Electrical and Electronics Engineering.",
+              "Sri Lanka Institute of Information Technology (SLIIT).",
             ]}
             description={[
               "Anjana founded Aethera Labs with a vision to transform ambitious ideas into precision-engineered realities.",
@@ -384,8 +384,8 @@ export default function AboutPage() {
             name="Sandika Kulasinghe"
             role="Product Testing & Validation Engineer | Marketing Lead"
             education={[
-              "Bachelor of Engineering Technology (Hons) in Instrumentation and Automation",
-              "University of Colombo",
+              "Bachelor of Engineering Technology (Hons) in Instrumentation and Automation.",
+              "University of Colombo.",
             ]}
             description={[
               "Sandika plays a crucial role in ensuring the performance, reliability, and market readiness of Aethera Labs products.",
