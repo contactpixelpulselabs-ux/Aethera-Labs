@@ -56,9 +56,11 @@ export default function ProductsPage() {
                     View Specs
                   </button>
                 </Link>
+                <Link href="/contact">
                 <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-2">
                   Purchase Now <ArrowRight size={18} />
                 </button>
+                 </Link>
               </div>
             </div>
             <div className="flex-1 w-full relative">
