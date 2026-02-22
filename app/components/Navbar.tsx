@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           {/* Logo Section */}
           <Link
             href="/"
-            className="flex-shrink-0 flex items-center gap-3 hover:opacity-80 transition-opacity"
+            className="shrink-0 flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             {/* Custom Logo SVG based on image */}
             <div className="w-8 h-8  rounded-full flex items-center justify-center text-white">

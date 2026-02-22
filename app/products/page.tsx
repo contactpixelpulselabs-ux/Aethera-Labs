@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -64,7 +64,7 @@ export default function ProductsPage() {
               </div>
             </div>
             <div className="flex-1 w-full relative">
-              <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-slate-50">
+              <div className="relative aspect-4/3 w-full rounded-2xl overflow-hidden bg-slate-50">
                 <Image
                   src={featuredProduct.images.hero}
                   alt={featuredProduct.name}
@@ -172,7 +172,7 @@ export default function ProductsPage() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 relative bg-slate-900 min-h-[400px]">
+            <div className="lg:w-1/2 relative bg-slate-900 min-h-100">
               {/* Used a darker overlay on the image to blend it */}
               <Image
                 src="/Background.png" // Reusing amp image as placeholder for exploded view if not generated yet.
@@ -180,7 +180,7 @@ export default function ProductsPage() {
                 fill
                 className="object-cover opacity-80 mix-blend-overlay"
               />
-              <div className="absolute inset-0 bg-gradient-to-l from-slate-950/0 to-slate-950"></div>
+              <div className="absolute inset-0 bg-linear-to-l from-slate-950/0 to-slate-950"></div>
             </div>
           </div>
         </div>
@@ -188,7 +188,7 @@ export default function ProductsPage() {
 
       {/* CTA Section */}
       <section className="max-w-4xl mx-auto px-6 py-24 text-center">
-        <div className="bg-gradient-to-b from-white to-slate-50 border border-slate-100 p-12 rounded-3xl shadow-sm">
+        <div className="bg-linear-to-b from-white to-slate-50 border border-slate-100 p-12 rounded-3xl shadow-sm">
           <div className="w-16 h-16 mx-auto bg-white rounded-2xl shadow-sm flex items-center justify-center mb-6 text-slate-700">
             <FlaskConical size={32} />
           </div>
