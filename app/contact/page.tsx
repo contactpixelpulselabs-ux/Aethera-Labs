@@ -12,7 +12,7 @@ import {
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 pb-20 pt-20">
-      <div className="max-w-7xl mx-auto px-6  gap-16 flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-6  gap-16 flex items-center justify-center flex-col-reverse">
         {/* Left Column: Info */}
         <div className="space-y-25">
           <div>
@@ -25,6 +25,50 @@ export default function ContactPage() {
               breakthrough. We are here to listen.
             </p>
           </div>
+          {/* Fast Answer Section */}
+      <div className="max-w-2xl mx-auto px-6 mt-32 text-center">
+        <h2 className="text-2xl font-bold text-slate-900 mb-8">
+          Need an answer faster?
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <a
+            href="https://wa.me/94768087474?text=Hello%20Aethera%20Labs,%20I%20have%20an%20inquiry."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
+          >
+            <div className="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0">
+              <MessageCircle size={24} />
+            </div>
+            <div className="text-left">
+              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+                Messaging
+              </span>
+              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
+                Talk on WhatsApp
+              </h4>
+            </div>
+          </a>
+
+          <a
+            href="mailto:anjana3056260@gmail.com?subject=Engineering%20Inquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20discuss..."
+            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
+          >
+            <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">
+              <Mail size={24} />
+            </div>
+            <div className="text-left">
+              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
+                Engineering
+              </span>
+              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
+                Email the Team
+              </h4>
+            </div>
+          </a>
+        </div>
+      </div>
 
           <div className="flex flex-col sm:flex-row sm:justify-center justify-center gap-8 ">
             {/* Headquarters */}
@@ -121,50 +165,7 @@ export default function ContactPage() {
         </div>*/}
       </div>
 
-      {/* Fast Answer Section */}
-      <div className="max-w-2xl mx-auto px-6 mt-32 text-center">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8">
-          Need an answer faster?
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <a
-            href="https://wa.me/94768087474?text=Hello%20Aethera%20Labs,%20I%20have%20an%20inquiry."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
-          >
-            <div className="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0">
-              <MessageCircle size={24} />
-            </div>
-            <div className="text-left">
-              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
-                Messaging
-              </span>
-              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
-                Talk on WhatsApp
-              </h4>
-            </div>
-          </a>
-
-          <a
-            href="mailto:anjana3056260@gmail.com?subject=Engineering%20Inquiry&body=Hello%20Team,%0A%0AI%20would%20like%20to%20discuss..."
-            className="flex items-center gap-4 p-4 border border-slate-100 rounded-xl hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
-          >
-            <div className="w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center shrink-0">
-              <Mail size={24} />
-            </div>
-            <div className="text-left">
-              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">
-                Engineering
-              </span>
-              <h4 className="font-bold text-slate-900 group-hover:text-blue-700">
-                Email the Team
-              </h4>
-            </div>
-          </a>
-        </div>
-      </div>
+      
     </div>
   );
 }
