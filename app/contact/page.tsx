@@ -14,7 +14,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-white text-slate-900 pb-20 pt-20">
       <div className="max-w-7xl mx-auto px-6  gap-16 flex items-center justify-center flex-col-reverse">
         {/* Left Column: Info */}
-        <div className="space-y-25">
+        <div className="space-y-18">
           <div>
             <h1 className="text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] mb-6">
               Let&apos;s build the future{" "}
@@ -26,7 +26,7 @@ export default function ContactPage() {
             </p>
           </div>
           {/* Fast Answer Section */}
-      <div className="max-w-2xl mx-auto px-6 mt-32 text-center">
+      <div className="max-w-2xl mx-auto px-6  text-center">
         <h2 className="text-2xl font-bold text-slate-900 mb-8">
           Need an answer faster?
         </h2>
