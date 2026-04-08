@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
 
           {/* CTA Button (Desktop) */}
           <div className="hidden md:block">
-            <Button name="Inquires" link="/contact" />
+            <Button name="Inquires" link="/contact" className="cursor-pointer"/>
           </div>
 
           {/* Mobile Menu Button */}

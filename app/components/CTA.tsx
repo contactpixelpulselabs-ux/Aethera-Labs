@@ -17,7 +17,7 @@ export const CTA = () => (
           Our labs are open for collaboration. Leverage our R&D expertise to
           build proprietary hardware tailored to your specific industrial needs.
         </p>
-        <Button name="Start a Project" link="/contact" />
+        <Button name="Start a Project" link="/contact" className="cursor-pointer" />
       </div>
     </div>
   </section>
