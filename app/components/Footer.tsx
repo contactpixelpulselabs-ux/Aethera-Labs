@@ -157,7 +157,7 @@ const Footer: React.FC = () => {
               className="text-gray-400 hover:text-gray-500"
               aria-label="Share this page"
             >
-              <Share2 className="h-6 w-6" aria-hidden="true" />
+              <Share2 className="h-6 w-6 cursor-pointer" aria-hidden="true" />
             </button>
           </div>
         </div>

@@ -91,14 +91,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                         </p>
 
                         <div className="flex gap-4">
-                            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium shadow-xl shadow-blue-600/20 transition-all">
+                            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium shadow-xl shadow-blue-600/20 transition-all cursor-pointer">
                                 Add to Cart ${product.price}
                             </button>
 
-                            <button className="text-blue-600 font-medium px-4 py-3 hover:text-blue-700 flex items-center gap-2">
+                           {/* <button className="text-blue-600 font-medium px-4 py-3 hover:text-blue-700 flex items-center gap-2 cursor-pointer">
                                 <Download size={20} />
                                 Download Spec Sheet
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 

@@ -52,12 +52,12 @@ export default function ProductsPage() {
 
               <div className="flex items-center gap-6 pt-2">
                 <Link href={`/product/${featuredProduct.slug}`}>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors">
+                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors cursor-pointer">
                     View Specs
                   </button>
                 </Link>
                 <Link href="/contact">
-                <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-2">
+                <button className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-2 cursor-pointer">
                   Purchase Now <ArrowRight size={18} />
                 </button>
                  </Link>
@@ -250,7 +250,7 @@ function ProductCard({
             {description}
           </p>
 
-          <button className="w-full py-3 rounded-lg border border-slate-200 text-slate-600 text-sm font-semibold group-hover:bg-slate-900 group-hover:text-white group-hover:border-slate-900 transition-colors flex items-center justify-center gap-2">
+          <button className="w-full py-3 rounded-lg border border-slate-200 text-slate-600 text-sm font-semibold group-hover:bg-slate-900 group-hover:text-white group-hover:border-slate-900 transition-colors flex items-center justify-center gap-2 cursor-pointer">
              See More
           </button>
         </div>
